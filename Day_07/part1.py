@@ -43,7 +43,7 @@ def run():
 
         final_bags = unpack_all_bags("shiny gold bag", reverse_color_dict)
 
-        print(f"Result {len(final_bags)}")
+        print(f"Result: {len(final_bags)}")
 
 
 if __name__ == "__main__":
