@@ -1,5 +1,3 @@
-import timeit
-
 EMPTY_SEAT = "L"
 OCCUPIED_SEAT = "#"
 FLOOR = "."
@@ -121,8 +119,4 @@ def run():
 
 
 if __name__ == "__main__":
-    start = timeit.default_timer()
     run()
-    stop = timeit.default_timer()
-    print("Execution:", stop - start, "s")
-
